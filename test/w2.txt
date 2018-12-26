@@ -1,0 +1,19 @@
+const d = 1
+var a,b,c;
+procedure gg;
+	const j = d;
+	var f,g;
+	begin
+	end;
+begin
+	a = d+1;
+	b := a+1;
+	c := a+d;
+	if a>b write(a)
+	else write(b);
+	write(c)
+end.
+procedure gg2
+begin
+	;;
+end.

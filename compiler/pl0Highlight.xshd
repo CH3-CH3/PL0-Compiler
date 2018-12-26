@@ -1,0 +1,52 @@
+<SyntaxDefinition name="PL0" extensions=".pl0" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
+	<Color name="MethodName" foreground="#C3C38D" />
+	<Color name="Digits" foreground="DarkBlue" />
+	<Color name="Operators" foreground="DarkGreen" />
+	<Color name="Declearation" foreground="#569CB6" />
+	<Color name="Keywords" foreground="#FF0000FF" />
+	<Color name="LoopKeywords" foreground="#FF0000FF" />
+	<Color name="JumpKeywords" foreground="#FF000080" />
+	<Color name="ControlFlow" foreground="#C596C0" />
+	<RuleSet ignoreCase="false">
+		<Keywords color="Operators">
+			<Word>odd</Word>
+			<Word>+</Word>
+			<Word>-</Word>
+			<Word>*</Word>
+			<Word>/</Word>
+			<Word>:=</Word>
+			<Word>&gt;</Word>
+			<Word>&lt;</Word>
+			<Word>&gt;=</Word>
+			<Word>&lt;=</Word>
+		</Keywords>
+		<Keywords color="Declearation">
+			<Word>const</Word>
+			<Word>var</Word>
+		</Keywords>
+		<Keywords color="LoopKeywords">
+			<Word>do</Word>
+			<Word>while</Word>
+			<Word>repeat</Word>
+			<Word>until</Word>
+		</Keywords>
+		<Keywords color="JumpKeywords">
+			<Word>.</Word>
+		</Keywords>
+		<Keywords color="ControlFlow">
+			<Word>else</Word>
+			<Word>if</Word>
+		</Keywords>
+		<Keywords color="Keywords">
+			<Word>procedure</Word>
+      <Word>begin</Word>
+			<Word>end</Word>
+		</Keywords>
+    <Keywords color="MethodName">
+			<Word>read</Word>
+      <Word>write</Word>
+			<Word>call</Word>
+		</Keywords>
+		<Rule color="Digits">\b0[xX][0-9a-fA-F]+|(\b\d+(\.[0-9]+)?|\.[0-9]+)([eE][+-]?[0-9]+)?</Rule>
+	</RuleSet>
+</SyntaxDefinition>
